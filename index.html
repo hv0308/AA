@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avinash-Akhila</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="slider-container">
+      <div class="slider-images">
+        <div class="slider-img">
+          <img src="Images/1.png" alt="1" />
+          <h1>I</h1>
+          <div class="details">
+            <h2>Avinash</h2>
+            <p></p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/2.png" alt="2" />
+          <h1>U</h1>
+          <div class="details">
+            <h2>Akhila</h2>
+            <p></p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/3.png" alt="3" />
+          <h1>WE</h1>
+          <div class="details">
+            <h2>Avinash🤍Akhila</h2>
+            <p></p>
+          </div>
+        </div>
+        <div class="slider-img active">
+          <img src="Images/4.png" alt="4" />
+          <h1>💙🩷</h1>
+          <div class="details">
+            <h2>Happy Anniversary</h2>
+            <p>22-11-2024</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/5.png" alt="5" />
+          <h1>Happy</h1>
+          <div class="details">
+            <h2>Happy</h2>
+            <p></p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/6.png" alt="6" />
+          <h1>Moments</h1>
+          <div class="details">
+            <h2>Moments</h2>
+            <p></p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/7.png" alt="7" />
+          <h1>Together</h1>
+          <div class="details">
+            <h2>Together</h2>
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <script src="js/jQuery.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $(".slider-img").on("click", function () {
+          $(".slider-img").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
